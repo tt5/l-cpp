@@ -1,0 +1,9 @@
+cmake -B build .
+cmake --preset dev
+
+cmake --build --preset dev
+./build/base/app
+
+ctest --preset x86-linux
+
+https://github.com/msvetkin/cpp-project-template

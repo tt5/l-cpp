@@ -1,0 +1,32 @@
+{
+  "version": 6,
+  "include": [
+    "base.json"
+  ],
+  "configurePresets": [
+    {
+      "name": "dev",
+      "inherits": [
+        "base"
+      ]
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "dev",
+      "inherits": [
+        "base"
+      ], 
+      "configurePreset": "dev"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "dev",
+      "inherits": [
+        "base"
+      ],
+      "configurePreset": "dev"
+    }
+  ] 
+}

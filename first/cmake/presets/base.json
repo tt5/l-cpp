@@ -1,0 +1,22 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "base", 
+      "hidden": true,
+      "binaryDir": "${sourceDir}/build/${presetName}"
+    }
+  ], 
+  "buildPresets": [
+    {
+      "name": "base",
+      "configurePreset": "base"
+    }
+  ], 
+  "testPresets": [
+    {
+      "name": "base", 
+      "configurePreset": "base"
+    }
+  ] 
+}
