@@ -2,8 +2,9 @@ cmake -B build .
 cmake --preset dev
 
 cmake --build --preset dev
-./build/base/app
+./build/dev/app
 
 ctest --preset x86-linux
 
 https://github.com/msvetkin/cpp-project-template
+cmake --preset dev -DCMAKE_CXX_FLAGS="-g"

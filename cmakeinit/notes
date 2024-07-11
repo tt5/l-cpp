@@ -1,0 +1,2 @@
+cmake --preset=dev
+./build/dev/cmakeinit
