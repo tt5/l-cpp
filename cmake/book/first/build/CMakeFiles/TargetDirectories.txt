@@ -1,0 +1,3 @@
+/home/n/data/l/cpp/cmake/book/first/build/CMakeFiles/Hello.dir
+/home/n/data/l/cpp/cmake/book/first/build/CMakeFiles/edit_cache.dir
+/home/n/data/l/cpp/cmake/book/first/build/CMakeFiles/rebuild_cache.dir

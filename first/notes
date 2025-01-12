@@ -4,7 +4,6 @@ cmake --preset dev
 cmake --build --preset dev
 ./build/dev/app
 
-ctest --preset x86-linux
+ctest --preset dev
 
 https://github.com/msvetkin/cpp-project-template
-cmake --preset dev -DCMAKE_CXX_FLAGS="-g"

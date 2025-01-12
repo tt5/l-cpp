@@ -16,8 +16,7 @@ FetchContent_Declare(fmt
 FetchContent_MakeAvailable(fmt)
 
 target_sources(app
-  PRIVATE
-    src/main.cpp
+  PRIVATE src/main.cpp
 )
 
 set_target_properties(app
