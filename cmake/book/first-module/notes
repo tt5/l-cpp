@@ -1,0 +1,8 @@
+cmake -B build
+cmake --build build
+./build/Hello
+mamba install conda-forge::gcc=14.2.0 conda-forge::gxx=14.2.0
+sudo apt install libc++-19-dev libc++abi-19-dev
+cmake -G Ninja -B build
+rm -rf build
+sudo apt-get install clang-tools-19
