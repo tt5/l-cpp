@@ -32,8 +32,9 @@ cmake_print_variables(CXX_MODULE_STD)
 
 add_executable(Hello hello.cpp)
 target_compile_features(Hello PRIVATE cxx_std_23) 
+file(GLOB_RECURSE IMPORTS CONFIGURE_DEPENDS import/*.cpp)
 target_sources(Hello
   PUBLIC
     FILE_SET all_my_modules TYPE CXX_MODULES FILES
-    myhello.cpp
+    ${IMPORTS}
 )
